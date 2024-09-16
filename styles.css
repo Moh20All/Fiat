@@ -75,6 +75,7 @@ section img {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
+
 }
 
 .gallery img {
@@ -237,6 +238,7 @@ footer p {
     padding: 2em;
     background-color: #f9f9f9;
     text-align: center;
+    border: 1px solid black;
   }
   
   #gallery h2 {
