@@ -4,246 +4,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SARL Kherif Auto Stars - Distributeur Agréé Stellantis Algérie</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-        header {
-            background-color: #862323;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #007BFF;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-
-        section {
-            margin: 20px 0;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section h2 {
-            margin-top: 0;
-        }
-
-        section img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: space-around;
-        }
-
-        .gallery img {
-            width: 30%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        footer p {
-            margin: 0;
-        }
-      
-    </style>
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Logo">
         <h1>SARL Kherif Auto Stars</h1>
-        <p>Distributeur Agréé Stellantis Algérie</p>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">À propos</a>
+            <a href="#showroom">Showroom</a>
+            <a href="#cars">Cars</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-
-    <nav>
-        <a href="#services">Services</a>
-        <a href="#about">À propos</a>
-        <a href="#gallery">Galerie</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
     <div class="container">
         <section id="services">
             <h2>Nos Services</h2>
-            <img src="nosservise.jfif" alt="err">
-            <a href="#servicerapide">SERVICE RAPIDE </a>
-            <img href="#SERVICERAPIDE" src="SERVICERAPIDE.jfif"  alt="SERVICCE RAPIDE">
-            <a href="#servicemecanique">SERVICE MECANIQUE</a>
-            <img href="#servicemecanique" src="SERVICEMECANIQUE.jfif" alt="SERVICE MECANIQUE">
-            <a href="#servicecarrosserie" id="SERVICECARROSSERIE">SERVICE CARROSSERIE</a><br>
-            <img  href="#servicecarrosserie" src="SERVICECARROSSERIE.jfif" alt="SERVICE CARROSSERIE" width="100%">
-            
+            <div class="services-container">
+                <div class="service-card">
+                    <img src="nosservise.jfif" alt="SERVICE RAPIDE">
+                    <a href="#servicerapide">SERVICE RAPIDE</a>
+                </div>
+                <div class="service-card">
+                    <img src="SERVICEMECANIQUE.jfif" alt="SERVICE MECANIQUE">
+                    <a href="#servicemecanique">SERVICE MECANIQUE</a>
+                </div>
+                <div class="service-card">
+                    <img src="SERVICECARROSSERIE.jfif" alt="SERVICE CARROSSERIE">
+                    <a href="#servicecarrosserie">SERVICE CARROSSERIE</a>
+                </div>
+            </div>
+        </section>
+        
+        
 
         <section id="about">
-            <h2>À propos de nous</h2>
-            <p>SARL Kherif Auto Stars est un distributeur agréé de Stellantis en Algérie. Nous sommes spécialisés dans les services de révision, la maintenance automobile, et l'installation de pièces de rechange d'origine.</p>
-            <img src="https://via.placeholder.com/400x250" alt="À propos de nous">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À propos de nous</h2>
+                    <p>SARL Kherif Auto Stars est un distributeur agréé de Stellantis en Algérie. Nous sommes spécialisés dans les services de révision, la maintenance automobile, et l'installation de pièces de rechange d'origine.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x250" alt="À propos de nous">
+                </div>
+            </div>
         </section>
+        
 
         <section id="gallery">
             <h2>Galerie</h2>
-            <div class="gallery">
-                <img src="12.jfif" alt="Image 1">
-                <img src="11.jfif" alt="Image 1">
-                <img src="13.jfif" alt="Image 1">
-                <img src="14.jfif" alt="Image 1">
-                <img src="15.jfif" alt="Image 1">
-                <img src="21.jfif" alt="Image 1">
-                <img src="22.jfif" alt="Image 1">
-                <img src="23.jfif" alt="Image 1">
-                <img src="24.jfif" alt="Image 1">
-                <img src="25.jfif" alt="Image 1">
-                <img src="26.jfif" alt="Image 1">
-                <img src="27.jfif" alt="Image 1">
-                <img src="28.jfif" alt="Image 1">
-                <img src="29.jfif" alt="Image 1">
-                <img src="30.jfif" alt="Image 1">
-                <img src="11.jfif" alt="Image 1">
-                <img src="12.jfif" alt="Image 1">
-                <img src="12.jfif" alt="Image 1">
+            
+            <!-- Showroom Section -->
+            <h3>Showroom</h3>
+            <div class="gallery showroom" id="showroom">
+              <img src="11.jfif" alt="Showroom Image 1">
+              <img src="12.jfif" alt="Showroom Image 2">
+           </div>
+          
+            <section id="cars-section" >
+                <h2 id="cars">Cars</h2>
+                <div class="car-cards">
+                  <div class="car-card">
+                    <div class="car-image">
+                      <img src="13.jfif" alt="T-Cross - 2023">
+                        
+                    </div>
+                    <div class="car-details">
+                      <h3>T-Cross – 2023</h3>
+                      <p>4D D6 PowerPulse Momentum 5dr AWD</p>
+                      <ul class="car-info">
+                        <li>15 Miles</li>
+                        <li>Petrol</li>
+                        <li>CVT</li>
+                      </ul>
+                      <div class="car-price">
+                        <span>$15,000</span>
+                        <a href="#">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="car-card">
+                    <div class="car-image">
+                      <img src="14.jfif" alt="BMW X8 - 5.0">
+                        
+                    </div>
+                    <div class="car-details">
+                      <h3>BMW X8 – 5.0</h3>
+                      <p>4D D6 PowerPulse Momentum 5dr AWD</p>
+                      <ul class="car-info">
+                        <li>100 Miles</li>
+                        <li>Hybrid</li>
+                        <li>CVT</li>
+                      </ul>
+                      <div class="car-price">
+                        <span>$12,000</span>
+                        <a href="#">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="car-card">
+                    <div class="car-image">
+                      <img src="15.jfif" alt="Ranger Black - 2021">
+                       
+                    </div>
+                    <div class="car-details">
+                      <h3>Ranger Black – 2021</h3>
+                      <p>2.0 D6 PowerPulse Momentum 5dr AWD</p>
+                      <ul class="car-info">
+                        <li>250 Miles</li>
+                        <li>Petrol</li>
+                        <li>Manual</li>
+                      </ul>
+                      <div class="car-price">
+                        <span>$165,000</span>
+                        <a href="#">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <section id="cars-section">
+                <div class="car-cards">
+                  <div class="car-card">
+                    <div class="car-image">
+                      <img src="21.jfif" alt="T-Cross - 2023">
+                        
+                    </div>
+                    <div class="car-details">
+                      <h3>T-Cross – 2023</h3>
+                      <p>4D D6 PowerPulse Momentum 5dr AWD</p>
+                      <ul class="car-info">
+                        <li>15 Miles</li>
+                        <li>Petrol</li>
+                        <li>CVT</li>
+                      </ul>
+                      <div class="car-price">
+                        <span>$15,000</span>
+                        <a href="#">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="car-card">
+                    <div class="car-image">
+                      <img src="22.jfif" alt="BMW X8 - 5.0">
+                        
+                    </div>
+                    <div class="car-details">
+                      <h3>BMW X8 – 5.0</h3>
+                      <p>4D D6 PowerPulse Momentum 5dr AWD</p>
+                      <ul class="car-info">
+                        <li>100 Miles</li>
+                        <li>Hybrid</li>
+                        <li>CVT</li>
+                      </ul>
+                      <div class="car-price">
+                        <span>$12,000</span>
+                        <a href="#">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="car-card">
+                    <div class="car-image">
+                      <img src="23.jfif" alt="Ranger Black - 2021">
+                       
+                    </div>
+                    <div class="car-details">
+                      <h3>Ranger Black – 2021</h3>
+                      <p>2.0 D6 PowerPulse Momentum 5dr AWD</p>
+                      <ul class="car-info">
+                        <li>250 Miles</li>
+                        <li>Petrol</li>
+                        <li>Manual</li>
+                      </ul>
+                      <div class="car-price">
+                        <span>$165,000</span>
+                        <a href="#">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-
+              
+          </section>
+          <section id="aprvnt" class="service-section">
+            <a href="#aprvnt" class="service-title">Service apres-vente</a>
+            <img src="aprvnt.jfif" alt="vidange" class="service-image">
+        </section>
+        
+        <section id="servicerapide" class="service-section">
+            <a href="#VIDANGE" class="service-link">VIDANGE</a>
+            <h2 class="service-description">POUR TOUT CHANGEMENT DE FILTRE À L'HUILE ET L'HUILE</h2>
+            <img src="vidange.jfif" alt="VIDANGE" class="service-image">
+        
+            <a href="#freinage" class="service-link"><h1>FREINAGE</h1></a>
+            <h2 class="service-description">Les freins sont essentiels pour la sécurité de toute voiture. Ils permettent de contrôler la vitesse et d'arrêter le véhicule en toute sécurité, surtout en cas d'urgence...</h2>
+            <img src="freinage.jpg" alt="freinage" class="service-image">
+        
+            <a href="#PANEUMATIQUES" class="service-link"><h1>PNEUMATIQUES</h1></a>
+            <h2 class="service-description">Les pneumatiques jouent un rôle crucial dans la sécurité et la performance d'une voiture. Ils sont le seul point de contact entre le véhicule et la route...</h2>
+            <img src="PANEUMATIQUES.jfif" alt="PNEUMATIQUES" class="service-image">
+        
+            <a href="#PARALLELISME" class="service-link"><h1>PARALLELISME</h1></a>
+            <h2 class="service-description">Le parallélisme des roues est essentiel pour une conduite sûre et efficace. Un bon alignement des roues assure une répartition uniforme de l'usure des pneus...</h2>
+            <img src="PARALLELISME.jpg" alt="PARALLELISME" class="service-image">
+        
+            <a href="#AMORTISSEURS" class="service-link"><h1>AMORTISSEURS</h1></a>
+            <h2 class="service-description">Les amortisseurs sont essentiels pour le confort et la sécurité de conduite. Ils absorbent les chocs dus aux irrégularités de la route, garantissant une meilleure adhérence des pneus...</h2>
+            <img src="AMORTISSEURS.jpg" alt="AMORTISSEURS" class="service-image">
+        
+            <a href="#EMBRAYAGE" class="service-link"><h1>EMBRAYAGE</h1></a>
+            <h2 class="service-description">L'embrayage est un élément clé du système de transmission d'une voiture. Il permet de changer de vitesse en douceur, en déconnectant momentanément le moteur des roues...</h2>
+            <img src="EMBRYAGE.jpg" alt="EMBRAYAGE" class="service-image">
+        
+            <a href="#BATTERIE" class="service-link"><h1>BATTERIE</h1></a>
+            <h2 class="service-description">La batterie est le cœur électrique de la voiture. Elle fournit l'énergie nécessaire pour démarrer le moteur et alimente les systèmes électriques du véhicule...</h2>
+            <img src="BATTERIE.jfif" alt="BATTERIE" class="service-image">
+        
+            <a href="#CLIMATISATION" class="service-link"><h1>CLIMATISATION</h1></a>
+            <h2 class="service-description">La climatisation dans une voiture est essentielle pour le confort des passagers, surtout en période de forte chaleur. Elle régule la température à l'intérieur du véhicule...</h2>
+            <img src="CLIMATISATON.jfif" alt="CLIMATISATION" class="service-image">
+        </section>
+        
+        <section id="testimonials" class="testimonial-section">
+            <h2 class="section-title">Ce que disent nos clients</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-item">
+                    <blockquote class="testimonial-text">
+                        <p>« Le service était exceptionnel ! L'équipe était professionnelle et attentive à tous nos besoins. Je recommande vivement leurs services ! »</p>
+                        <footer class="testimonial-author">- Jane Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="testimonial-item">
+                    <blockquote class="testimonial-text">
+                        <p>« Une expérience merveilleuse du début à la fin. La qualité du travail a dépassé nos attentes et le service client était de premier ordre. »</p>
+                        <footer class="testimonial-author">- John Smith</footer>
+                    </blockquote>
+                </div>
+                <div class="testimonial-item">
+                    <blockquote class="testimonial-text">
+                        <p>« Je suis extrêmement satisfait des résultats. L'équipe a été rapide, courtoise et a fait des pieds et des mains. Je ferai certainement appel à leurs services à nouveau. »</p>
+                        <footer class="testimonial-author">- Emily Davis</footer>
+                    </blockquote>
+                </div>
             </div>
         </section>
-        <section id="aprvnt">
-            <a>Service apres-vente </a>
-            <img src="aprvnt.jfif"  alt="vidange">
-
-        </section>
-    <section id="servicerapide">
-        <a href="#VIDANGE"> VIDANGE </a>
-        <h2>POUR TOUT CHANGEMENT DE FILTERE A L'HUILE ET L'HUILE</h2>
-        <img href="#VIDANGE" src="vidange.jfif"  alt="VIDANGE" width="100%">
-
-        <a href="#freinage"> <h1>FREINAGE</h1> </a>
-        <h2>Les freins sont essentiels pour la sécurité de toute voiture. Ils permettent de contrôler la vitesse et d'arrêter le véhicule en toute sécurité, surtout en cas d'urgence. Un système de freinage bien entretenu garantit une réactivité optimale, réduisant ainsi le risque d'accidents et assurant une conduite sereine.</h2>
-        <img href="#freinage" src="freinage.jpg"  alt="freinage" width="100%">
-
-        <a href="#PANEUMATIQUES"> <h1>PANEUMATIQUES</h1> </a>
-        <h2>Les pneumatiques jouent un rôle crucial dans la sécurité et la performance d'une voiture. Ils sont le seul point de contact entre le véhicule et la route, assurant adhérence, stabilité et confort. Des pneus en bon état permettent une meilleure maniabilité, une distance de freinage réduite, et une conduite plus économique en carburant. Il est donc essentiel de les entretenir régulièrement et de les remplacer dès qu'ils montrent des signes d'usure.</h2>
-        <img href="#PANEUMATIQUES" src="PANEUMATIQUES.jfif"  alt="PANEUMATIQUES" width="100%">
-
-        <a href="#PARALLELISME"> <h1>PARALLELISME</h1> </a>
-          <h2>
-            Le parallélisme des roues est essentiel pour une conduite sûre et efficace. Un bon alignement des roues assure une répartition uniforme de l'usure des pneus, améliore la tenue de route et réduit la consommation de carburant. Un mauvais parallélisme peut entraîner une usure prématurée des pneumatiques, une dégradation du confort de conduite et un risque accru de perte de contrôle du véhicule. C'est pourquoi il est important de vérifier et de corriger le parallélisme régulièrement.
-          </h2>
-        <img href="#PARALLELISME" src="PARALLELISME.jpg"  alt="PARALLELISME" width="100%">
-
-        <a href="#AMORTISSEURS"> <h1>AMORTISSEURS</h1> </a>
-          <h2>
-            Les amortisseurs sont essentiels pour le confort et la sécurité de conduite. Ils absorbent les chocs dus aux irrégularités de la route, garantissant une meilleure adhérence des pneus et une stabilité du véhicule. Des amortisseurs en bon état réduisent la distance de freinage, améliorent la tenue de route, et protègent les autres composants de la voiture contre l'usure prématurée. Il est donc crucial de les entretenir régulièrement pour assurer une conduite sûre et confortable.
-        </h2>
-        <img href="#AMORTISSEURS" src="AMORTISSEURS.jpg"  alt="AMORTISSEURS" width="100%">
-       
-        <a href="#EMBRYAGE"> <h1>EMBRYAGE</h1> </a>
-        <h2>
-          
-            L'embrayage est un élément clé du système de transmission d'une voiture. Il permet de changer de vitesse en douceur, en déconnectant momentanément le moteur des roues. Un embrayage en bon état garantit des transitions fluides entre les rapports, améliore la performance du véhicule et prévient l'usure prématurée des autres composants de la transmission. Entretenir l'embrayage régulièrement est essentiel pour assurer une conduite réactive et prolonger la durée de vie du véhicule.
-         </h2>
-         <img href="#EMBRYAGE" src="EMBRYAGE.jpg"  alt="EMBRYAGE" width="100%">
-
-         <a href="#BATTERIE"> <h1>BATTERIE</h1> </a>
-         <h2>
-           
-            La batterie est le cœur électrique de la voiture. Elle fournit l'énergie nécessaire pour démarrer le moteur et alimente les systèmes électriques du véhicule, comme les phares, la radio et les dispositifs de sécurité. Une batterie en bon état assure un démarrage fiable, même par temps froid, et un fonctionnement optimal des équipements électroniques. Un entretien régulier de la batterie, incluant la vérification des connexions et du niveau de charge, est essentiel pour éviter les pannes inattendues.
-        </h2>
-            <img href="#BATTERIE" src="BATTERIE.jfif"  alt="EMBRYAGE" width="100%">
-          
-            <a href="#CLIMATISATON"> <h1>CLIMATISATON</h1> </a>
-            <h2>
-                La climatisation dans une voiture est essentielle pour le confort des passagers, surtout en période de forte chaleur. Elle régule la température à l'intérieur du véhicule, offrant une conduite agréable et réduisant la fatigue due à la chaleur. De plus, un système de climatisation bien entretenu améliore la qualité de l'air en filtrant les polluants et l'humidité. Un entretien régulier, comprenant le contrôle du niveau de réfrigérant et le nettoyage des filtres, est crucial pour garantir un fonctionnement efficace et prolonger la durée de vie du système.
-            </h2>
-               <img href="#CLIMATISATON" src="CLIMATISATON.jfif"  alt="CLIMATISATON" width="100%">
-         
-         <a href="#CLIMATISATON"> <h1>CLIMATISATON</h1> </a>
-            <h2>
-                La climatisation dans une voiture est essentielle pour le confort des passagers, surtout en période de forte chaleur. Elle régule la température à l'intérieur du véhicule, offrant une conduite agréable et réduisant la fatigue due à la chaleur. De plus, un système de climatisation bien entretenu améliore la qualité de l'air en filtrant les polluants et l'humidité. Un entretien régulier, comprenant le contrôle du niveau de réfrigérant et le nettoyage des filtres, est crucial pour garantir un fonctionnement efficace et prolonger la durée de vie du système.
-            </h2>
-               <img href="#CLIMATISATON" src="CLIMATISATON.jfif"  alt="CLIMATISATON" width="100%">
-    
-
-
-    </section>
-    
-        <section id="contact">
-            <div class="container">
-                <h2>Contactez-noust</h2>
+        
+        <section class="contact-section" id="contact">
+            <h2>Contactez-nous</h2>
+            <div class="contact-info">
                 <p>
-                    <span style="font-size: 1.5em;">🏢</span>
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
                     <strong>Adresse :</strong> 
-                    <a href="https://www.google.com/maps/place/Rue+des+Martyrs,+Alger,+Algérie" target="_blank">
+                    <a href="https://www.google.com/maps/place/Rue+des+Martyrs,+Alger,+Algérie" target="_blank" class="contact-link">
                         Rue des Martyrs, Alger, Algérie
                     </a>
                 </p>
                 <p>
-                    <span style="font-size: 1.5em;">✉️</span> 
+                    <i class="fas fa-envelope contact-icon"></i>
                     <strong>Email :</strong> 
-                    <a href="kherif.auto.stars@gmail.com">
+                    <a href="mailto:kherif.auto.stars@gmail.com" class="contact-link">
                         kherif.auto.stars@gmail.com
                     </a>
                 </p>
-                
                 <p>
-                    <span style="font-size: 1.5em;">&#128222;</span>
+                    <i class="fas fa-phone-alt contact-icon"></i>
                     <strong>Téléphone :</strong> 
-                    <a href="tel:+21770069032">
+                    <a href="tel:+21770069032" class="contact-link">
                         +21770069032
                     </a>
                 </p>
                 <p>
-                    
-                    <i class="fab fa-facebook" style="font-size: 1.5em; color: #3b5998;"></i>                 <strong>Facebook :</strong> 
-                    <a href="https://www.facebook.com/KherifAutoStars" target="_blank">
+                    <i class="fab fa-facebook-f contact-icon"></i>
+                    <strong>Facebook :</strong> 
+                    <a href="https://www.facebook.com/KherifAutoStars" target="_blank" class="contact-link">
                         Kherif Auto Stars sur Facebook
                     </a>
                 </p>
             </div>
         </section>
+        
+        
     </div>
 
     <footer>
