@@ -554,3 +554,152 @@ footer p {
         margin-bottom: 10px;
     }
 }
+/* Media Queries for Responsive Design */
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Navbar */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    header img {
+        width: 100px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+
+    /* Gallery */
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .gallery img {
+        height: 150px;
+    }
+
+    /* Service Section */
+    #services h2 {
+        font-size: 2em;
+    }
+
+    .services-container {
+        padding: 0 15px;
+    }
+
+    /* About Section */
+    #about {
+        padding: 40px 10px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Testimonial Section */
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-item {
+        width: 100%;
+        max-width: none;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    /* Contact Section */
+    .contact-section h2 {
+        font-size: 1.5em;
+    }
+
+    .contact-info p {
+        font-size: 1em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-icon {
+        font-size: 1.2em;
+    }
+}
+
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    /* Navbar */
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        width: 80px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+    }
+
+    /* Gallery */
+    .gallery img {
+        height: 120px;
+    }
+
+    /* Service Section */
+    .service-card {
+        font-size: 0.9em;
+    }
+
+    .service-card img {
+        height: 150px;
+    }
+
+    /* About Section */
+    .about-image img {
+        max-width: 100%;
+    }
+
+    /* Testimonial Section */
+    .testimonial-item {
+        padding: 10px;
+    }
+
+    .testimonial-text {
+        font-size: 0.8em;
+    }
+}
